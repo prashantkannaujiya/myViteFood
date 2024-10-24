@@ -1,0 +1,29 @@
+
+
+
+#searchPic{
+    width:235px;
+    height:35vh;
+}
+#searchPage{
+   
+}
+#imagecell{
+    text-align: center;
+}
+.notFound{
+    text-align: center;
+    color:brown;
+    margin-top: 15vh;
+   
+}
+.notFound>h2{
+    font-weight: 400;
+}
+#searchPage button{
+    background-color: brown;
+    color:white;
+    padding:10px 30px;
+    border:0;
+    border-radius: 4px;
+}

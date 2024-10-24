@@ -1,0 +1,98 @@
+#explore{
+    display:flex;
+    justify-content: center;
+   
+}
+#filter{
+   /* position:sticky;
+   top:0; */
+}
+
+ #headingOptions{
+    border: 2px #f7afc7 solid;
+    border-radius: 4px;
+    padding:10px 20px;
+    color:gray;
+    background-color: white;
+}
+#dropDown{
+    display:none;
+    box-shadow: 3px 3px 15px;
+    width:15%;
+    height:35vh;
+    overflow: scroll;
+}
+#dropDown>p{
+    padding:2px 8px;
+}
+#Categoryoptions>div:hover  #dropDown{
+border:1px solid #f7afc7;
+display: block;
+padding:5px;
+border-radius: 6px;
+position:absolute;
+top:54vh;
+left:1.5%;
+background-color: #ffff00;
+}
+#Categoryoptions>div:hover #headingOptions{
+    background-color: antiquewhite;
+color:grey;
+}
+#Categoryoptions>div:hover #dropDown>p:hover{
+    background-color: #a05a5a;
+    color:white;
+}
+#priceFilter{
+    text-align: left;
+}
+#priceFilter>h5{
+    
+   text-align: center;
+}
+#priceFilter p{
+    text-align: center;
+}
+#priceFilter button{
+    /* margin:10px 0 0 0;
+    border:2px solid #ffc400;
+    padding:10px 20px;
+    color:gray;
+    border-radius: 5px;
+    background-color: white; */
+}
+#priceFilter input{
+    appearance: none;
+    border-radius: 3px;
+    border:1px solid #ffc400;
+    width:14px;
+    height:14px;
+    margin-right:5px;
+}
+#priceFilter input:hover{
+background-color: #fac8c8;
+    
+}
+#priceFilter input:checked{
+    
+   background-color: #ffc400;
+   border:2px solid white;
+   outline:1px solid #ffc400;
+}
+#menu p{
+    margin-bottom: 0;
+    padding: 3px;
+   font-size: large;
+   color: rgb(61, 61, 61);
+   position:relative;
+}
+#menu p:hover{
+    background-color: #F73333;
+      color:yellow;
+}
+.arrow{
+    position:absolute;
+    right:0;
+    top:7px;
+
+}

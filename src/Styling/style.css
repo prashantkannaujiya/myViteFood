@@ -1,0 +1,172 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Mulish:wght@300&family=Pacifico&family=Satisfy&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+  #root{
+color:#525252;
+/* font-family: "Raleway", sans-serif; */
+font-family: "Poppins",sans-serif;
+/* font-family: "Lato", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Nunito Sans", sans-serif; */
+}
+body{
+  /* font-family: "Raleway", sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Lato", sans-serif; */
+}
+.siteIcon{
+    
+    font-family: 'Arimo', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+font-weight:bold;
+}
+.container{
+  font-family: "Poppins",sans-serif;
+}
+.App{
+ 
+}
+
+#header input:focus{
+  outline: none;
+}
+
+#menuCardHome{
+  height:15vh;
+  }
+#homePic{
+ background-image: url('/src/assets/01.jpeg');
+   width:100%;
+   height:100vh;
+position:absolute;
+top:0;
+z-index: -1;
+animation: pics 5s infinite;
+animation-timing-function: ease-in-out;
+background-position: center;
+background-size:cover;
+}
+@keyframes pics {
+  0%{
+   opacity: 0.01;
+  }
+  50%{opacity: 1;}
+  100%{opacity: 0.01;}
+}
+#homePic>img{
+  width:100%;
+  height:100vh;
+  opacity:1;
+}
+#homeHead{
+    margin:12vh 6% 1vh 6%;
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 19vh;
+letter-spacing: 2px;
+animation: fromLeft 0.3s linear;
+}
+@keyframes fromLeft {
+  from{transform:translateX(-10%)}
+  to{transform: translateX(0);}
+}
+#homeSubHead{
+color:yellow;
+margin:0 6%;
+font-size: 12vh;
+animation: fromLeft 0.3s linear;
+}
+.homequote{
+  animation: fromLeft 0.3s linear;
+}
+#headerLogin button{
+background-color: antiquewhite;
+padding:8px 10px;
+border: 1px solid #f7afc7 ;
+border-radius: 4px;
+margin:10px;
+}
+#searchBox{
+  position:absolute;
+  left:36%;
+}
+.wait>h2{
+  position: absolute;
+  z-index: 2;
+  top:44vh;
+ right:42%;
+ font-size: xx-large;
+ font-weight: 400;
+ color: maroon;
+}
+.waitBackground{
+  position:fixed;
+  top:0;
+  height:100vh;
+  width: 100%;
+  background-color: #f3a7a7;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.lds-dual-ring {
+  position:fixed;
+  left:48%;
+  top:40vh;
+  z-index: 2;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid maroon;
+  border-color: maroon transparent maroon transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.foodAnimate{
+  animation : moveup .75s ease;
+  transform-origin: left;
+}
+@keyframes moveup {
+  from{transform: translateX(35%);}
+  to{transform: translateX(0);}
+}
+.searchfield{
+ 
+  display:none;
+}
+.appearBox{
+  position:absolute;
+  right:9%;
+  display: inline;
+  animation: roll 0.2s linear;
+  transform-origin: right;
+}
+@keyframes roll {
+  from{transform: scaleX(0.1);}
+  to{transform: scaleX(1);}
+}

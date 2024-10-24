@@ -1,0 +1,41 @@
+.foodpic img{
+    width:90%;
+    height:35vh;
+    border-radius: 9px 9px 0 0;
+}
+#cart{
+  background-color: antiquewhite;
+    display: flex;
+    align-items:flex-start;
+   padding: 15px;
+   padding-left: 7%;
+  width:55%;
+   margin:10px;
+   margin-left:45px;
+   margin-bottom: 5vh;
+ box-shadow: 2px 2px 4px grey;
+}
+#cart button{
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #f7afc7 ;
+border-radius: 6px;
+}
+.productDetail{
+font-size: larger;
+
+}
+#cartSummary{
+    position:absolute;
+    font-family: "Poppins", sans-serif;
+    right:38px;
+    top:19vh;
+ 
+}
+.ontop{
+  animation:ontop 0.3s ease-in-out ;
+}
+@keyframes ontop {
+  from{transform: translateY(20%);}
+  to{transform:translateY(0)}
+}
