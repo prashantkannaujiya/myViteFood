@@ -87,10 +87,10 @@ function Home() {
 
       <div>
         <ThemeProvider theme={theme}>
-          <div className="container bg-light ">
+          <div className="container  ">
             <div className="row px-3 mb-5 mx-auto justify-content-center  pb-3">
               <div className="col">
-                <div className="card border-0  h-100">
+                <div className="card border-0 shadow h-100">
                   <div className="card-header text-warning border-0 bg-white">
                     <FaUserTie style={{ fontSize: "65px" }}></FaUserTie>
                   </div>
@@ -102,7 +102,7 @@ function Home() {
               </div>
 
               <div className="col">
-                <div className="card border-0  h-100 ">
+                <div className="card border-0 shadow h-100 ">
                   <div className="card-header text-warning border-0 bg-white">
                     <FaUtensils style={{ fontSize: "65px" }}></FaUtensils>
                   </div>
@@ -114,7 +114,7 @@ function Home() {
               </div>
 
               <div className="col">
-                <div className="card border-0  h-100 ">
+                <div className="card border-0 shadow h-100 ">
                   <div className="card-header text-warning border-0 bg-white">
                     <FaCartArrowDown style={{ fontSize: "65px" }}></FaCartArrowDown>
                   </div>
@@ -126,7 +126,7 @@ function Home() {
               </div>
 
               <div className="col">
-                <div className="card border-0  h-100 ">
+                <div className="card border-0 shadow h-100 ">
                   <div className="card-header text-warning border-0 bg-white">
                     <FaCalendar style={{ fontSize: "65px" }}></FaCalendar>
                   </div>

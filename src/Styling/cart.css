@@ -39,3 +39,46 @@ font-size: larger;
   from{transform: translateY(20%);}
   to{transform:translateY(0)}
 }
+.container {
+  max-width: 1200px;
+}
+
+.cart-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.cart-item {
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.cart-item:hover {
+  transform: scale(1.02);
+}
+
+.food-pic {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.product-price {
+  color: #007bff;
+}
+
+.cart-summary {
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.btn-primary, .btn-outline-primary {
+  border-radius: 20px;
+}

@@ -26,7 +26,7 @@
     padding:2px 8px;
 }
 #Categoryoptions>div:hover  #dropDown{
-border:1px solid #f7afc7;
+border:1px solid #b4b1b2;
 display: block;
 padding:5px;
 border-radius: 6px;
@@ -40,7 +40,7 @@ background-color: #ffff00;
 color:grey;
 }
 #Categoryoptions>div:hover #dropDown>p:hover{
-    background-color: #a05a5a;
+    background-color: #b9b5b5;
     color:white;
 }
 #priceFilter{
@@ -70,7 +70,7 @@ color:grey;
     margin-right:5px;
 }
 #priceFilter input:hover{
-background-color: #fac8c8;
+background-color: #c4bdbd;
     
 }
 #priceFilter input:checked{
@@ -87,7 +87,7 @@ background-color: #fac8c8;
    position:relative;
 }
 #menu p:hover{
-    background-color: #F73333;
+    background-color: #b1adad;
       color:yellow;
 }
 .arrow{

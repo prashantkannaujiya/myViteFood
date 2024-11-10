@@ -44,6 +44,7 @@ Food Menu
           onClick={() => {
             setclicked("Dessert");
           }}
+          style={{cursor:'pointer'}}
         >
           <i class="bi bi-cup-hot-fill text-warning me-1 fs-2"></i>Dessert
         </span>
@@ -56,6 +57,7 @@ Food Menu
           onClick={() => {
             setclicked("Chicken");
           }}
+          style={{cursor:'pointer'}}
         >
           {" "}
           <GiChickenOven className="text-warning me-1 fs-2" size={"48px"} />
@@ -70,6 +72,8 @@ Food Menu
           onClick={() => {
             setclicked("Vegetarian");
           }}
+
+          style={{cursor:'pointer'}}
         >
           {" "}
           <GiFullPizza  className="text-warning me-1 fs-2" size={"48px"} />
@@ -89,7 +93,7 @@ Food Menu
                     <img src={menu[i].strMealThumb} className="img-fluid " />
                     </div>
                     <div className="col-6 flex-fill">
-                      <div className="card-header fs-5 d-flex bg-white justify-content-between fw-bold p-0"><span >{menu[i].strMeal}</span><span className="text-warning text-end "><i className="bi bi-currency-rupee"></i>{menu[i].price}</span></div>
+                      <div className="card-header fs-5 d-flex bg-white justify-content-between fw-bol p-0"><span >{menu[i].strMeal}</span><span className="text-warning text-end "><i className="bi bi-currency-rupee"></i>{menu[i].price}</span></div>
                       <div className="card-text p-0 fst-italic"></div>
                     </div>
 
